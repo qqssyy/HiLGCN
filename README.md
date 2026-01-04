@@ -1,1 +1,8 @@
 # HiLGCN
+
+
+Our paper is currently undergoing anonymous peer review, and more details will be released after it is accepted.
+
+
+## Abstract
+Recommender systems are valuable tools for addressing the growing problem of information overload. However, many existing studies focus primarily on the accuracy of recommendations, overlooking the serendipity of the results. Serendipitous recommendations introduce unexpected content, can span diverse areas of interest. Moreover, precision and serendipity often conflict with each other and are difficult to achieve simultaneously. Serendipity that deviate too much from user interests may negatively impact the user experience. To find the optimal balance between serendipity and precision, we propose a High Latent Graph Convolutional Network (HiLGCN) model. Specifically, HiLGCN sets a serendipity threshold based on interest groups formed from user preferences, limiting the scope of serendipitous recommendations while improving accuracy. Methodologically, HiLGCN first designs an interest grouping algorithm, which constrains the topological relationships between nodes, ultimately enhancing the distinction of high-order features among different nodes. Secondly, HiLGCN designs a data augmentation method based on interest groups, combining negative samples to balance and enrich the data. Experimental results show that HiLGCN consistently outperforms state-of-the-art methods.
